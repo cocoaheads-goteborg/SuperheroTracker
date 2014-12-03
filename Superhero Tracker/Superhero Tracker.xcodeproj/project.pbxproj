@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1B491E1A2F96D600E1EA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B491D1A2F96D600E1EA06 /* AppDelegate.swift */; };
+		CC1B49231A2F96D600E1EA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1B49211A2F96D600E1EA06 /* Main.storyboard */; };
+		CC1B49251A2F96D600E1EA06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1B49241A2F96D600E1EA06 /* Images.xcassets */; };
+		CC1B49341A2F96D600E1EA06 /* Superhero_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B49331A2F96D600E1EA06 /* Superhero_TrackerTests.swift */; };
+		CC1B49411A2F96FD00E1EA06 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B493D1A2F96FD00E1EA06 /* MasterViewController.swift */; };
+		CC1B49421A2F96FD00E1EA06 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B493E1A2F96FD00E1EA06 /* Superhero.swift */; };
+		CC1B49431A2F96FD00E1EA06 /* SuperheroStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B493F1A2F96FD00E1EA06 /* SuperheroStore.swift */; };
+		CC1B49441A2F96FD00E1EA06 /* SuperheroStoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B49401A2F96FD00E1EA06 /* SuperheroStoreExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1B492E1A2F96D600E1EA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B49101A2F96D600E1EA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1B49171A2F96D600E1EA06;
+			remoteInfo = "Superhero Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC1B49181A2F96D600E1EA06 /* Superhero Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Superhero Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1B491C1A2F96D600E1EA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1B491D1A2F96D600E1EA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC1B49221A2F96D600E1EA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC1B49241A2F96D600E1EA06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC1B492D1A2F96D600E1EA06 /* Superhero TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Superhero TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1B49321A2F96D600E1EA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1B49331A2F96D600E1EA06 /* Superhero_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero_TrackerTests.swift; sourceTree = "<group>"; };
+		CC1B493D1A2F96FD00E1EA06 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CC1B493E1A2F96FD00E1EA06 /* Superhero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		CC1B493F1A2F96FD00E1EA06 /* SuperheroStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperheroStore.swift; sourceTree = "<group>"; };
+		CC1B49401A2F96FD00E1EA06 /* SuperheroStoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperheroStoreExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1B49151A2F96D600E1EA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1B492A1A2F96D600E1EA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1B490F1A2F96D600E1EA06 = {
+			isa = PBXGroup;
+			children = (
+				CC1B491A1A2F96D600E1EA06 /* Superhero Tracker */,
+				CC1B49301A2F96D600E1EA06 /* Superhero TrackerTests */,
+				CC1B49191A2F96D600E1EA06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1B49191A2F96D600E1EA06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B49181A2F96D600E1EA06 /* Superhero Tracker.app */,
+				CC1B492D1A2F96D600E1EA06 /* Superhero TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1B491A1A2F96D600E1EA06 /* Superhero Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B49451A2F970800E1EA06 /* Model */,
+				CC1B49461A2F970F00E1EA06 /* Controller */,
+				CC1B49211A2F96D600E1EA06 /* Main.storyboard */,
+				CC1B491B1A2F96D600E1EA06 /* Supporting Files */,
+			);
+			path = "Superhero Tracker";
+			sourceTree = "<group>";
+		};
+		CC1B491B1A2F96D600E1EA06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B49241A2F96D600E1EA06 /* Images.xcassets */,
+				CC1B491D1A2F96D600E1EA06 /* AppDelegate.swift */,
+				CC1B491C1A2F96D600E1EA06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1B49301A2F96D600E1EA06 /* Superhero TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B49331A2F96D600E1EA06 /* Superhero_TrackerTests.swift */,
+				CC1B49311A2F96D600E1EA06 /* Supporting Files */,
+			);
+			path = "Superhero TrackerTests";
+			sourceTree = "<group>";
+		};
+		CC1B49311A2F96D600E1EA06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B49321A2F96D600E1EA06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1B49451A2F970800E1EA06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B493E1A2F96FD00E1EA06 /* Superhero.swift */,
+				CC1B493F1A2F96FD00E1EA06 /* SuperheroStore.swift */,
+				CC1B49401A2F96FD00E1EA06 /* SuperheroStoreExtension.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC1B49461A2F970F00E1EA06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B493D1A2F96FD00E1EA06 /* MasterViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1B49171A2F96D600E1EA06 /* Superhero Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1B49371A2F96D600E1EA06 /* Build configuration list for PBXNativeTarget "Superhero Tracker" */;
+			buildPhases = (
+				CC1B49141A2F96D600E1EA06 /* Sources */,
+				CC1B49151A2F96D600E1EA06 /* Frameworks */,
+				CC1B49161A2F96D600E1EA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Superhero Tracker";
+			productName = "Superhero Tracker";
+			productReference = CC1B49181A2F96D600E1EA06 /* Superhero Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1B492C1A2F96D600E1EA06 /* Superhero TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1B493A1A2F96D600E1EA06 /* Build configuration list for PBXNativeTarget "Superhero TrackerTests" */;
+			buildPhases = (
+				CC1B49291A2F96D600E1EA06 /* Sources */,
+				CC1B492A1A2F96D600E1EA06 /* Frameworks */,
+				CC1B492B1A2F96D600E1EA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1B492F1A2F96D600E1EA06 /* PBXTargetDependency */,
+			);
+			name = "Superhero TrackerTests";
+			productName = "Superhero TrackerTests";
+			productReference = CC1B492D1A2F96D600E1EA06 /* Superhero TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1B49101A2F96D600E1EA06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CocoaHeads;
+				TargetAttributes = {
+					CC1B49171A2F96D600E1EA06 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CC1B492C1A2F96D600E1EA06 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CC1B49171A2F96D600E1EA06;
+					};
+				};
+			};
+			buildConfigurationList = CC1B49131A2F96D600E1EA06 /* Build configuration list for PBXProject "Superhero Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1B490F1A2F96D600E1EA06;
+			productRefGroup = CC1B49191A2F96D600E1EA06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1B49171A2F96D600E1EA06 /* Superhero Tracker */,
+				CC1B492C1A2F96D600E1EA06 /* Superhero TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1B49161A2F96D600E1EA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B49231A2F96D600E1EA06 /* Main.storyboard in Resources */,
+				CC1B49251A2F96D600E1EA06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1B492B1A2F96D600E1EA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1B49141A2F96D600E1EA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B49411A2F96FD00E1EA06 /* MasterViewController.swift in Sources */,
+				CC1B49431A2F96FD00E1EA06 /* SuperheroStore.swift in Sources */,
+				CC1B491E1A2F96D600E1EA06 /* AppDelegate.swift in Sources */,
+				CC1B49441A2F96FD00E1EA06 /* SuperheroStoreExtension.swift in Sources */,
+				CC1B49421A2F96FD00E1EA06 /* Superhero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1B49291A2F96D600E1EA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B49341A2F96D600E1EA06 /* Superhero_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1B492F1A2F96D600E1EA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1B49171A2F96D600E1EA06 /* Superhero Tracker */;
+			targetProxy = CC1B492E1A2F96D600E1EA06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC1B49211A2F96D600E1EA06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1B49221A2F96D600E1EA06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1B49351A2F96D600E1EA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC1B49361A2F96D600E1EA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1B49381A2F96D600E1EA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Superhero Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC1B49391A2F96D600E1EA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Superhero Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC1B493B1A2F96D600E1EA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Superhero TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Superhero Tracker.app/Superhero Tracker";
+			};
+			name = Debug;
+		};
+		CC1B493C1A2F96D600E1EA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Superhero TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Superhero Tracker.app/Superhero Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1B49131A2F96D600E1EA06 /* Build configuration list for PBXProject "Superhero Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B49351A2F96D600E1EA06 /* Debug */,
+				CC1B49361A2F96D600E1EA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1B49371A2F96D600E1EA06 /* Build configuration list for PBXNativeTarget "Superhero Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B49381A2F96D600E1EA06 /* Debug */,
+				CC1B49391A2F96D600E1EA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC1B493A1A2F96D600E1EA06 /* Build configuration list for PBXNativeTarget "Superhero TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B493B1A2F96D600E1EA06 /* Debug */,
+				CC1B493C1A2F96D600E1EA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1B49101A2F96D600E1EA06 /* Project object */;
+}
